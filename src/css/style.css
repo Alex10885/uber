@@ -148,4 +148,168 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+
+/*стили блока преимуществ*/
+.label {
+  margin: 0 auto;
+  background-color: #000000;
+  width: 112px;
+  height: 24px;
+  padding: 5px 12px;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 0;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+.reasons-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+  min-width: 342px;
+}
+
+.reasons-round {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+.reasons-descr {
+  width: 343px;
+}
+
+.reasons-subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.reasons-text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: justify;
+}
+
+/*стили секции мобайл*/
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_bg.jpg") center center/cover no-repeat;
+}
+
+.mobile .row {
+  margin-top: 32px;
+}
+
+.mobile-item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+.mobile-item-1 {
+  background: url("../img/mobile/mobile_img_1.jpg") center center/cover no-repeat;
+}
+
+.mobile-item-2 {
+  background: url("../img/mobile/mobile_img_2.jpg") center center/cover no-repeat;
+}
+
+.mobile-item-3 {
+  background: url("../img/mobile/mobile_img_3.jpg") center center/cover no-repeat;
+}
+
+.mobile-item-4 {
+  background: url("../img/mobile/mobile_img_4.jpg") center center/cover no-repeat;
+}
+
+.mobile-item-5 {
+  background: url("../img/mobile/mobile_img_5.jpg") center center/cover no-repeat;
+}
+
+.mobile-item-6 {
+  background: url("../img/mobile/mobile_img_6.jpg") center center/cover no-repeat;
+}
+
+.mobile-item__subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mobile-item__plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 26px;
+  height: 26px;
+  bottom: 35px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 6px;
+  position: absolute;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
