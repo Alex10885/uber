@@ -1,0 +1,44 @@
+/*стили секции рекваир*/
+.require
+    padding: 68px 0 84px 0
+    &-block
+        margin: 33px 0
+        &__nmb
+            margin-bottom: 0
+    &-title
+        color: #1ca8c3
+        font-size: 22px
+        font-weight: 400
+    &-list
+        list-style-type: none
+        padding-left: 50px
+        margin-top: 22px
+        li
+            font-size: 17px
+            font-weight: 300
+            line-height: 24px
+            color: #222222
+            position: relative
+            margin-bottom: 10px
+            &:before
+                content: ''
+                display: block
+                position: absolute
+                width: 21px
+                height: 20px
+                left: -32px
+                top: 3px
+                background: url('../img/requir/requir_gr.png') center (center / cover) no-repeat
+    &-descr
+        margin-top: 25px
+        font-size: 17px
+        font-weight: 300
+        line-height: 24px
+        color: #42b7cd
+    .warning
+        .require-title
+            color: #ff5959
+        .require-list
+            li
+                &:before
+                    background: url('../img/requir/requir_red.png') center (center / cover) no-repeat
