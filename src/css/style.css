@@ -37,6 +37,10 @@
   padding-right: 28px;
 }
 
+.menu-item:last-child {
+  border-right: none;
+}
+
 .subheader {
   position: absolute;
   width: 100%;
@@ -202,9 +206,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   margin-top: 35px;
   min-width: 342px;
 }
@@ -606,5 +610,112 @@ footer a:hover {
   margin-top: 19px;
   text-transform: uppercase;
   text-align: center;
+}
+
+/*Медиа запросы*/
+@media (max-width: 1200px) {
+  .menu-item {
+    padding-right: 20px;
+  }
+  .menu-link {
+    font-size: 13px;
+  }
+  .promo-header {
+    font-size: 50px;
+  }
+  .promo-subheader {
+    font-size: 30px;
+  }
+  .reasons-block {
+    margin-top: 70px;
+  }
+  .reasons-descr {
+    width: 300px;
+  }
+  .reasons-text {
+    font-size: 13px;
+  }
+  .mobile-item {
+    width: 304px;
+  }
+  .mobile-item__subtitle {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .require-descr {
+    font-size: 15px;
+  }
+  .footer-divider {
+    display: none;
+  }
+  .footer-links {
+    width: 382px;
+    margin: 0px -90px;
+  }
+}
+
+@media (max-width: 991px) {
+  .menu-item {
+    padding-right: 8px;
+  }
+  .menu-link {
+    font-size: 10px;
+  }
+  .subheader-logo img {
+    width: 100%;
+  }
+  .subheader-official {
+    font-size: 11px;
+  }
+  .subheader-phone {
+    font-size: 18px;
+  }
+  .subheader-btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 22px;
+  }
+  .promo-header {
+    font-size: 38px;
+  }
+  .promo-subheader {
+    font-size: 24px;
+    line-height: 18px;
+  }
+  .promo-descr {
+    font-size: 15px;
+  }
+  .reasons-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reasons-descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+  .mobile-item {
+    width: 221px;
+  }
+  .mobile-item__subtitle {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .pick-img img {
+    width: 174%;
+  }
+  .footer-mobile {
+    width: 50%;
+  }
+  .footer-mobile img {
+    margin-bottom: 7px;
+  }
+  .footer-links {
+    margin: 0px -60px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
