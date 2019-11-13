@@ -930,8 +930,14 @@ footer a:hover {
   .menu {
     width: 85%;
   }
+  .menu-item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
   .menu-link {
     font-size: 19px;
+    display: block;
   }
   .reasons {
     padding: 22px 0 36px 0;
