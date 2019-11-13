@@ -6,8 +6,15 @@
 .header
     position: relative
     &-nav
+        position: fixed
+        width: 100%
         height: 50px
         background-color: #212121
+        z-index: 5
+
+.hamburger
+    display: none
+
 .menu
     display: flex
     justify-content: space-between
@@ -24,6 +31,7 @@
         &:last-child
             border-right: none
 .subheader
+    margin-top: 49px
     position: absolute
     width: 100%
     height: 84px
@@ -67,3 +75,5 @@
         font-weight: 400
         text-transform: uppercase
         +btn_hover
+.xs-visible
+    display: none

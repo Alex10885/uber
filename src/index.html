@@ -40,11 +40,18 @@
                 </ul>
                 <!-- /.menu -->
             </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- /.hamburger -->
         </nav>
         <div class="subheader">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 offset-md-1">
+                    <div class="col-6 col-md-4 offset-md-1">
                         <a href="#" class="subheader-logo">
                             <img src="img/header-logo.png" alt="logo">
                         </a>
@@ -52,11 +59,12 @@
                             Официальный партнер Uber в Москве
                         </div>
                     </div>
-                    <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+                    <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                         <div class="subheader-call">Звоните нам ежедневно</div>
                         <a href="tel:84957970988" class="subheader-phone">8 495 797 09 88</a>
                     </div>
-                    <div class="col-md-3 col-lg-2">
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <a href="tel:84957970988" class="xs-visible subheader-phone">8 495 797 09 88</a>
                         <button class="subheader-btn">заказать звонок</button>
                     </div>
                 </div>
@@ -67,7 +75,7 @@
     <section class="promo">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-10 offset-md-1 promo-margin">
                     <h1 class="promo-header">КОМПАНИЯ UBER PARTNERS!</h1>
                     <h2 class="promo-subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
                     <div class="promo-descr">
@@ -268,14 +276,18 @@
     <!-- /.mobile -->
     <section class="pick">
         <div class="container">
-            <div class="label-white">возможности</div>
-            <div class="title-white">Выбор - отличная штука!</div>
-            <div class="subtitle-white">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
+            <div class="label-white pick-label__white">возможности</div>
+            <div class="title-white pick-title__white">Выбор - отличная штука!</div>
+            <div class="subtitle-white pick-subtitle__white">Закажите автомобиль, который подходит вам по стилю и
+                бюджету</div>
             <div class=" col-md-7 offset-md-0 col-lg-7 offset-lg-1 col-xl-7 offset-xl-2 t-10 pick-img">
                 <img src="img/pick/car_pick.png" alt="car">
             </div>
-            <div class="postscript-1">Машины на каждый день.</div>
-            <div class="postscript-2">Лучше, быстрее и дешевле, чем такси</div>
+            <div class="postscript">
+                <div class="postscript-1">Машины на каждый день.</div>
+                <div class="postscript-2">Лучше, быстрее и дешевле, чем такси</div>
+            </div>
+
 
         </div>
     </section>
@@ -346,7 +358,7 @@
         <div class="container">
             <div class="label label-white label-min">города</div>
             <div class="title title-white">По всему миру</div>
-            <div class="subtitle subtitle-white">Мы в вашем городе и по всему миру</div>
+            <div class="subtitle subtitle-white world-subtitle__white">Мы в вашем городе и по всему миру</div>
 
             <a href="#" class="world-link">посмотреть все города</a>
         </div>
@@ -410,6 +422,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
